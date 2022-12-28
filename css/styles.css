@@ -125,6 +125,7 @@ p {
     padding: 4rem 1rem;
   }
 }
+/* (general CSS.) */
 /* Header: */
 .header {
   min-height: 100vh;
@@ -159,6 +160,7 @@ p {
   font-size: 1.25rem;
   padding: 1rem 1.75rem;
 }
+/* (header.) */
 /* Content-divider: */
 .content-divider {
   height: 0.5rem;
@@ -169,6 +171,7 @@ p {
     var(--clr-primary)
   );
 }
+/* (content-divider.) */
 /* Skills: */
 .skills {
   background: var(--clr-grey-10);
@@ -207,6 +210,7 @@ p {
     width: 25%;
   }
 }
+/* (skills.) */
 /* About: */
 .about-img,
 .about-info {
@@ -239,3 +243,54 @@ p {
     padding-left: 2rem;
   }
 }
+/* (about.) */
+/* Products: */
+.products {
+  background: var(--clr-grey-10);
+}
+.products article {
+  padding: 2rem 0;
+}
+.products-text {
+  color: var(--clr-grey-5);
+  max-width: 26rem;
+}
+.product {
+  margin-bottom: 2rem;
+}
+.product-img {
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  height: 17rem;
+  object-fit: cover;
+}
+.product-price {
+  color: var(--clr-primary);
+}
+@media screen and (min-width: 768px) {
+  .product {
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .products-info {
+    float: left;
+    width: 30%;
+  }
+  .products-inventory {
+    float: left;
+    width: 70%;
+  }
+  .product {
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+}
+/* (products.) */
