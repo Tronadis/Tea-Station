@@ -126,6 +126,19 @@ p {
   }
 }
 /* (general CSS.) */
+/* Animations: */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* (animations.) */
 /* Navbar: */
 .nav-btn {
   position: fixed;
@@ -135,7 +148,7 @@ p {
   color: var(--clr-primary);
   z-index: 1;
   cursor: pointer;
-  /* animation */
+  animation: pulse 2s ease-in-out infinite;
 }
 .navbar {
   position: fixed;
