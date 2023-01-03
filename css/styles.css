@@ -138,6 +138,24 @@ p {
     transform: scale(1);
   }
 }
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(50px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 /* (animations.) */
 /* Navbar: */
 .nav-btn {
@@ -223,7 +241,7 @@ p {
 .banner h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-primary);
-  /* animation */
+  animation: slideFromRight 5s ease-in-out 1;
 }
 .banner h1 {
   text-transform: uppercase;
