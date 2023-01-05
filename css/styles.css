@@ -586,7 +586,11 @@ footer {
 /* =================
    Other page: about-links.html */
 .about-links {
-  height: 100vh;
+  min-height: 100vh;
   background: black;
   text-align: center;
+}
+.fa-github {
+  font-size: 4rem;
+  margin-top: 2rem;
 }
