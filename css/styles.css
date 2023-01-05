@@ -586,7 +586,7 @@ footer {
 /* =================
    Other page: about-links.html */
 .about-links {
-  min-height: 100vh;
+  min-height: 99vh;
   background: black;
   text-align: center;
 }
