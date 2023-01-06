@@ -4,7 +4,7 @@
 
 Tutorial website project from [John Smilga](https://github.com/john-smilga)’s [excellent HTML and CSS course](https://www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/).
 
-Featuring a ficticious elegant tea shop, the layout is made ‘old-fashionedly’ using the `float` property, giving the student an idea of some legacy website’s architechture, as well as a little training using this property. 
+Featuring a ficticious elegant tea shop, the layout is made ‘old-fashionedly’ using the `float` property, giving the student an idea of some legacy website’s architecture, as well as a little training using this property. 
 
 ###### En Français
 
