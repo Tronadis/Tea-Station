@@ -140,7 +140,7 @@ p {
 }
 @keyframes slideFromRight {
   0% {
-    transform: translateX(100px);
+    transform: translateX(1000px);
     opacity: 0;
   }
   50% {
@@ -158,7 +158,7 @@ p {
 }
 @keyframes slideFromLeft {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-1000px);
     opacity: 0;
   }
   50% {
