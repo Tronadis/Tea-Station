@@ -25,7 +25,7 @@ body {
 	background: var(--clr-white);
 	color: var(--clr-grey-1);
 	line-height: 1.5;
-	font-size: 0.875;
+	font-size: 0.875rem;
 }
 a {
 	text-decoration: none;
